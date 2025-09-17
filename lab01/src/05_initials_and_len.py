@@ -1,0 +1,4 @@
+name=input("ФИО:").strip()
+n=name.split()
+print(f"Инициалы: {n[0][0]}{n[1][0]}{n[2][0]}.")
+print(f"Длина: {len(name.strip())}")
