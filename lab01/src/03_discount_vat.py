@@ -1,6 +1,7 @@
-price=float(input())
-discount=float(input())
-vat=float(input())
+price=float(input("Цена: "))
+discount=float(input("Скидка: "))
+vat=float(input("НДС: "))
+
 base=price*(1-discount/100)
 vat_amount=base*(vat/100)
 total=base+vat_amount
