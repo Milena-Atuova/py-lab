@@ -6,7 +6,7 @@ name = input("Имя: ")
 age = int(input("Возраст: "))
 print(f"Привет, {name}! Через год тебе будет {age + 1}.")
 ```
-![Картинка 1]("C:\Users\admin\Downloads\2025-09-22_22-26-32.png")
+![Картинка 1](./images/lab01/01_greeting.png)
 
 ### Задание 2
 ```python
@@ -61,3 +61,4 @@ for i in range(n):
 print(och,zoch)
 ```
 ![Картинка 6]("C:\Users\admin\Downloads\2025-09-18_11-59-24.png")
+
