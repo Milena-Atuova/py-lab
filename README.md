@@ -15,7 +15,7 @@ b = float(input("B: ").replace(",", "."))
 
 print(f"sum={a + b}; avg={(a + b) / 2}")
 ```
-![Картинка 2]("C:\Users\admin\Downloads\2025-09-22_22-26-32.png")
+![Картинка 2](lab01/images/02_sum_avg.png)
 
 ### Задание 3
 ```python
@@ -30,14 +30,14 @@ print(f"Бфза после скидки: {base:.2f}")
 print(f"НДС: {vat_amount:.2f}")
 print(f"Итого к оплате: {total:.2f}")
 ```
-![Картинка 3]("C:\Users\admin\Downloads\2025-09-18_11-52-53.png")
+![Картинка 3](lab01/images/03_discount_vat.png)
 
 ### Задание 4
 ```python
 m=int(input("Минуты:"))
 print(f"{m//60:02d}:{m%60:02d}")
 ```
-![Картинка 4]("C:\Users\admin\Downloads\2025-09-18_11-54-35.png")
+![Картинка 4](lab01/images/04_minutes_to_hhmm.png)
 
 ### Задание 5
 ```python
@@ -46,7 +46,7 @@ n=name.split()
 print(f"Инициалы: {n[0][0]}{n[1][0]}{n[2][0]}.")
 print(f"Длина: {len(name.strip())}")
 ```
-![Картинка 5]("C:\Users\admin\Downloads\2025-09-18_11-56-13.png")
+![Картинка 5](lab01/images/05_initials_and_len.png)
 
 ### Задание 6
 ```python
@@ -60,5 +60,5 @@ for i in range(n):
         zoch+=1
 print(och,zoch)
 ```
-![Картинка 6]("C:\Users\admin\Downloads\2025-09-18_11-59-24.png")
+![Картинка 6](lab01/images/06_people.png)
 
