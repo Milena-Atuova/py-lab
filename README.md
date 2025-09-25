@@ -1,7 +1,5 @@
 ## Лабораторная работа 1
 
-it's me:
-![Картинка 1](https://nypost.com/wp-content/uploads/sites/2/2020/12/GRUMPY_ANIMALS_GALLERY.7.jpg?quality=75&strip=all)
 
 
 ### Задание 1
@@ -34,14 +32,14 @@ print(f"Бфза после скидки: {base:.2f}")
 print(f"НДС: {vat_amount:.2f}")
 print(f"Итого к оплате: {total:.2f}")
 ```
-![Картинка 3](lab01/images/03_discount_vat.png)
+![Картинка 3](lab01/images/2025-09-25_11-47-30.png)
 
 ### Задание 4
 ```python
 m=int(input("Минуты:"))
 print(f"{m//60:02d}:{m%60:02d}")
 ```
-![Картинка 4](lab01/images/04_minutes_to_hhmm.png)
+![Картинка 4](lab01/images/2025-09-25_11-50-48.png)
 
 ### Задание 5
 ```python
