@@ -30,7 +30,7 @@ print(f"Бфза после скидки: {base:.2f}")
 print(f"НДС: {vat_amount:.2f}")
 print(f"Итого к оплате: {total:.2f}")
 ```
-![Картинка 3](c:\Users\admin\Downloads\2025-09-25_11-08-09.png)
+![Картинка 3](lab01/images/03_discount_vat.png)
 
 ### Задание 4
 ```python
