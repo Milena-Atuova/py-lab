@@ -44,7 +44,8 @@ print(f"{m//60:02d}:{m%60:02d}")
 name=input("ФИО:").strip()
 n=name.split()
 print(f"Инициалы: {n[0][0]}{n[1][0]}{n[2][0]}.")
-print(f"Длина: {len(name.strip())}")
+n2=' '.join(n)
+print(f"Длина: {len(n2)}")
 ```
 ![Картинка 5](lab01/images/05_initials_and_len.png)
 
