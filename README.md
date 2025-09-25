@@ -1,5 +1,9 @@
 ## Лабораторная работа 1
 
+it's me:
+![Картинка 1](https://nypost.com/wp-content/uploads/sites/2/2020/12/GRUMPY_ANIMALS_GALLERY.7.jpg?quality=75&strip=all)
+
+
 ### Задание 1
 ```python
 name = input("Имя: ")
