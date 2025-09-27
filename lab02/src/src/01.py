@@ -2,14 +2,14 @@ def min_max(nums: list[float | int]) -> tuple[float | int, float | int]:
     if len(nums) == 0:
         return ValueError
 
-    mi = 9e6
-    ma = -9e6
+    mn = 10**100
+    mx = -10**100
 
     for i in range(len(nums)):
-        if nums[i] < mi:
-            mi = nums[i]
-        if nums[i] > ma:
-            ma = nums[i]
+        if nums[i] < mn:
+            mn = nums[i]
+        if nums[i] > mx:
+            mx = nums[i]
 
     return tuple([mi, ma])
 
