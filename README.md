@@ -8,7 +8,7 @@ name = input("Имя: ")
 age = int(input("Возраст: "))
 print(f"Привет, {name}! Через год тебе будет {age + 1}.")
 ```
-![Картинка 1](lab01/images/01_greeting.png)
+![Картинка 1](img/lab1/01_greeting.png)
 
 ### Задание 2
 ```python
@@ -17,7 +17,7 @@ b = float(input("B: ").replace(",", "."))
 
 print(f"sum={a + b}; avg={(a + b) / 2}")
 ```
-![Картинка 2](lab01/images/02_sum_avg.png)
+![Картинка 2](img/lab1/02_sum_avg.png)
 
 ### Задание 3
 ```python
@@ -32,13 +32,13 @@ print(f"Бфза после скидки: {base:.2f}")
 print(f"НДС: {vat_amount:.2f}")
 print(f"Итого к оплате: {total:.2f}")
 ```
-![Картинка 3](lab01/images/03_discount_vat.png)
+![Картинка 3](img/lab1/03_discount_vat.png)
 ### Задание 4
 ```python
 m=int(input("Минуты:"))
 print(f"{m//60:02d}:{m%60:02d}")
 ```
-![Картинка 4](lab01/images/04_minutes_to_hhmm.png)
+![Картинка 4](img/lab1/04_minutes.png)
 ### Задание 5
 ```python
 name=input("ФИО:").strip()
@@ -47,7 +47,7 @@ print(f"Инициалы: {n[0][0]}{n[1][0]}{n[2][0]}.")
 n2=' '.join(n)
 print(f"Длина: {len(n2)}")
 ```
-![Картинка 5](lab01/images/05_initials_and_len.png)
+![Картинка 5](img/lab1/05_initials.png)
 
 ### Задание 6
 ```python
@@ -61,5 +61,5 @@ for i in range(n):
         zoch+=1
 print(och,zoch)
 ```
-![Картинка 6](lab01/images/06_people.png)
+![Картинка 6](img/lab1/06_people.png)
 
