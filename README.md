@@ -85,7 +85,7 @@ def min_max(nums: list[float | int]) -> tuple[float | int, float | int]:
         if nums[i] > mx:
             mx = nums[i]
 
-    return tuple([mi, ma])
+    return tuple([mn, mx])
 
 ```
 ![Картинка 1](img/lab2/01_arrays_min_max.png)
