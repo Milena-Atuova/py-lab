@@ -1,4 +1,8 @@
 def format_record(rec: tuple[str, str, float]) -> str:
+    if not isinstance(rec, tuple):
+        return TypeError
+    elif len(rec) != 3:
+        return ValueError
 
     name_data = rec[0].strip().split()
 
@@ -24,4 +28,4 @@ def format_record(rec: tuple[str, str, float]) -> str:
         return TypeError
 
     return f"{name_string_data}, гр. {group}, GPA {gpa:.2f}"
-print(format_record(("  сидорова  анна   сергеевна ", "ABB-01", 3.999)))
+print(format_record(["  сидорова  анна   сергеевна ", "ABB-01", 4.5]))
