@@ -1,6 +1,7 @@
 ## Лабораторная работа 1
 
-
+## вот с таким лицом я их делаю:
+![it s me](https://avatars.mds.yandex.net/i?id=d163d89881eb6b53f1964edcf6e81716_sr-9182388-images-thumbs&n=13)
 
 ### Задание 1
 ```python
@@ -68,6 +69,8 @@ print(och,zoch)
 
 ## Лабораторная работа 2
 
+## вот с таким лицом я их делаю:
+![it s me](https://avatars.mds.yandex.net/i?id=d163d89881eb6b53f1964edcf6e81716_sr-9182388-images-thumbs&n=13)
 
 
 ### Задание 1.1
@@ -209,3 +212,5 @@ print(format_record(("  сидорова  анна   сергеевна ", "ABB-
 ![Картинка 7](img/lab2/03_tuples.png)
 
 
+## вот с таким лицом я их делаю:
+![it s me](https://avatars.mds.yandex.net/i?id=d163d89881eb6b53f1964edcf6e81716_sr-9182388-images-thumbs&n=13)
