@@ -66,6 +66,10 @@ print(och,zoch)
 
 ## Лабораторная работа 2
 
+привет от леши кирюшина ))))
+![Картинка 1](https://n1s1.hsmedia.ru/12/6d/43/126d43d092f0e76370d27414934b8c78/5000x3333_0xac120004_673001321684442011.jpeg)
+
+
 ### Задание 1.1
 ```python
 def min_max(nums: list[float | int]) -> tuple[float | int, float | int]:
@@ -105,6 +109,12 @@ def flatten(mat: list[list | tuple]) -> list:
     return array
 ```
 ![Картинка 3](img/lab2/01_arrays_flatten.png)
+
+
+# карен васильевич лучший
+
+![Картинка 1](https://n1s1.hsmedia.ru/12/6d/43/126d43d092f0e76370d27414934b8c78/5000x3333_0xac120004_673001321684442011.jpeg)
+
 
 ### Задание 2.1
 ```python
