@@ -107,9 +107,6 @@ def flatten(mat: list[list | tuple]) -> list:
 ![Картинка 3](img/lab2/01_arrays_flatten.png)
 
 
-# карен васильевич лучший
-
-![Картинка 1](https://n1s1.hsmedia.ru/12/6d/43/126d43d092f0e76370d27414934b8c78/5000x3333_0xac120004_673001321684442011.jpeg)
 
 
 ### Задание 2.1
@@ -210,8 +207,4 @@ print(format_record(("  сидорова  анна   сергеевна ", "ABB-
 ```
 ![Картинка 7](img/lab2/03_tuples.png)
 
-
-# надеюсь сдала иначе станешь такой блондинкой
-
-![Картинка 1](https://png.pngtree.com/thumb_back/fw800/background/20230331/pngtree-atmospheric-outdoors-fashion-portrait-of-beautiful-blonde-in-car-on-the-photo-image_2186869.jpg)
 
