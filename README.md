@@ -1,8 +1,5 @@
 ## Лабораторная работа 1
 
-## вот с таким лицом я их делаю:
-![it s me](https://avatars.mds.yandex.net/i?id=d163d89881eb6b53f1964edcf6e81716_sr-9182388-images-thumbs&n=13)
-
 ### Задание 1
 ```python
 name = input("Имя: ")
@@ -64,14 +61,7 @@ print(och,zoch)
 ```
 ![Картинка 6](img/lab1/06_people.png)
 
-
-
-
 ## Лабораторная работа 2
-
-## вот с таким лицом я их делаю:
-![it s me](https://avatars.mds.yandex.net/i?id=d163d89881eb6b53f1964edcf6e81716_sr-9182388-images-thumbs&n=13)
-
 
 ### Задание 1.1
 ```python
@@ -210,7 +200,3 @@ def format_record(rec: tuple[str, str, float]) -> str:
 print(format_record(("  сидорова  анна   сергеевна ", "ABB-01", 3.999)))
 ```
 ![Картинка 7](img/lab2/03_tuples.png)
-
-
-## вот с таким лицом я их делаю:
-![it s me](https://avatars.mds.yandex.net/i?id=d163d89881eb6b53f1964edcf6e81716_sr-9182388-images-thumbs&n=13)
