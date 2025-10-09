@@ -213,3 +213,9 @@ def format_record(rec: tuple[str, str, float]) -> str:
 print(format_record(("  сидорова  анна   сергеевна ", "ABB-01", 3.999)))
 ```
 ![Картинка 7](img/lab2/03_tuples.png)
+
+
+# надеюсь сдала иначе станешь такой блондинкой
+
+![Картинка 1](https://png.pngtree.com/thumb_back/fw800/background/20230331/pngtree-atmospheric-outdoors-fashion-portrait-of-beautiful-blonde-in-car-on-the-photo-image_2186869.jpg)
+
