@@ -285,11 +285,7 @@ print("Топ-5:")
 for word, count in top_words:
     print(f"{word}:{count}")
 
-```
-![Картинка 1](img/lab3/B.png)
 
-
-```python
 # Таблица
 USE_TABLE = True 
 
@@ -311,5 +307,5 @@ else:
         print(f"{word}:{count}")
 
 ```
-![Картинка 4](img/lab3/B.table.png)
+![Картинка 1](img/lab3/B.png)
 
