@@ -1,7 +1,6 @@
 ## Лабораторная работа 1
 
 
-
 ### Задание 1
 ```python
 name = input("Имя: ")
@@ -63,9 +62,6 @@ print(och,zoch)
 ```
 ![Картинка 6](img/lab1/06_people.png)
 
-
-
-
 ## Лабораторная работа 2
 
 
@@ -109,6 +105,9 @@ def flatten(mat: list[list | tuple]) -> list:
     return array
 ```
 ![Картинка 3](img/lab2/01_arrays_flatten.png)
+
+
+
 
 ### Задание 2.1
 ```python
