@@ -26,7 +26,7 @@ USE_TABLE = True
 
 if USE_TABLE and top_words:
     # Вычисляем ширину первого столбца по длине самого длинного слова
-    max_word_len = max(len(word) for word, _ in top_words)
+    max_word_len = max(len(word) for word, i in top_words)
     header_word = "слово"
     header_freq = "частота"
 
