@@ -371,7 +371,9 @@ write_csv(
 
 
 ```
-![Картинка 1](img/lab4/A.png)
+![Картинка 1](img/lab4/A_1.png)
+![Картинка 2](img/lab4/A_2.png)
+
 
 ### Задание B
 ```python
@@ -408,4 +410,4 @@ print("Топ-5:")
 for x,y in top[:5]:
     print(f'{x}:{y}')
 ```
-![Картинка 2](img/lab4/B.png)
+![Картинка 3](img/lab4/B.png)
