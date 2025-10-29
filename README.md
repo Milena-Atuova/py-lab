@@ -372,6 +372,8 @@ write_csv(
 
 ```
 ![Картинка 1](img/lab4/A_1.png)
+
+
 ![Картинка 2](img/lab4/A_2.png)
 
 
