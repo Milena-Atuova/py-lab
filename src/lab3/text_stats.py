@@ -1,4 +1,5 @@
 import sys, os
+
 sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 from lib.text import normalize, tokenize, count_freq, top_n
@@ -6,7 +7,6 @@ from lib.text import normalize, tokenize, count_freq, top_n
 text = sys.stdin.readline()
 
 normalized_text = normalize(text)
-
 tokens = tokenize(normalized_text)
 
 total_words = len(tokens)
