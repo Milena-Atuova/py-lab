@@ -21,7 +21,7 @@ p = read_text(input_path)
 norm_p=normalize(p)
 tokens=tokenize(norm_p)
 count_word=count_freq(tokens)
-top=top_n(count_freq(tokenize(normalize(p))))
+top=top_n(count_word)
 
 write_csv(top, output_path, ["word", "count"])
 
