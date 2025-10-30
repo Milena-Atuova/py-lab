@@ -25,6 +25,7 @@ def write_csv(rows: Iterable[Sequence], path: str | Path,
               header: tuple[str, ...] | None = None) -> None:
     p = Path(path)
     rows = list(rows)
+
     with p.open("w", newline="", encoding="utf-8") as f:
         w = csv.writer(f)
         if header is not None:
@@ -36,7 +37,7 @@ def write_csv(rows: Iterable[Sequence], path: str | Path,
 
 def frequencies_from_text(text: str) -> dict[str, int]:
     tokens = tokenize(normalize(text))
-    return Counter(tokens)  # Используем функцию из вашей библиотеки
+    return Counter(tokens)  
 
 
 def sorted_word_counts(freq: dict[str, int]) -> list[tuple[str, int]]:
