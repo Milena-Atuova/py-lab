@@ -9,9 +9,8 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 
 
 from lib.text import normalize, tokenize, count_freq, top_n
-
 from pathlib import Path
-import csv
+import csv  
 from typing import Iterable, Sequence
 from collections import Counter
 
@@ -43,7 +42,7 @@ def frequencies_from_text(text: str) -> dict[str, int]:
 def sorted_word_counts(freq: dict[str, int]) -> list[tuple[str, int]]:
     return sorted(freq.items(), key=lambda kv: (-kv[1], kv[0]))
 
-'''
+
 txt = read_text("data/input.txt")  # должен вернуть строку
 data=[i for i in top_n(count_freq(tokenize(normalize(txt))),n=5)]
 write_csv(
@@ -52,7 +51,7 @@ write_csv(
     path = "data/check.csv" ,
 )
 
-'''
+
 
 txt = read_text("data/input.txt")  # должен вернуть строку
 write_csv([("word","count"),("test",3)], "data/check.csv")  # создаст CSV
