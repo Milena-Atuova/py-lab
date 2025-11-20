@@ -1,5 +1,5 @@
-name=input("ФИО:").strip()
-n=name.split()
+name = input("ФИО:").strip()
+n = name.split()
 print(f"Инициалы: {n[0][0]}{n[1][0]}{n[2][0]}.")
-n2=' '.join(n)
+n2 = " ".join(n)
 print(f"Длина: {len(n2)}")

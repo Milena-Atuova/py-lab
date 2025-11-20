@@ -3,7 +3,7 @@ def min_max(nums: list[float | int]) -> tuple[float | int, float | int]:
         return ValueError
 
     mn = 10**100
-    mx = -10**100
+    mx = -(10**100)
 
     for i in range(len(nums)):
         if nums[i] < mn:
@@ -12,6 +12,7 @@ def min_max(nums: list[float | int]) -> tuple[float | int, float | int]:
             mx = nums[i]
 
     return tuple([mn, mx])
+
 
 def unique_sorted(nums: list[float | int]) -> list[float | int]:
     return sorted(set(nums))

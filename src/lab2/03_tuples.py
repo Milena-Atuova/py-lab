@@ -28,4 +28,6 @@ def format_record(rec: tuple[str, str, float]) -> str:
         return TypeError
 
     return f"{name_string_data}, гр. {group}, GPA {gpa:.2f}"
+
+
 print(format_record(["  сидорова  анна   сергеевна ", "ABB-01", 4.5]))

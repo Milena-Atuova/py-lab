@@ -2,15 +2,15 @@ import sys
 import os
 
 # Добавляем корневую директорию в путь
-ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', '..'))
+ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
 sys.path.insert(0, ROOT_DIR)
 
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 
 
 from lib.text import normalize, tokenize, count_freq, top_n
 from pathlib import Path
-import csv  
+import csv
 from typing import Iterable, Sequence
 from collections import Counter
 
@@ -20,8 +20,9 @@ def read_text(path: str | Path, encoding: str = "utf-8") -> str:
     return p.read_text(encoding=encoding)
 
 
-def write_csv(rows: Iterable[Sequence], path: str | Path,
-              header: tuple[str, ...] | None = None) -> None:
+def write_csv(
+    rows: Iterable[Sequence], path: str | Path, header: tuple[str, ...] | None = None
+) -> None:
     p = Path(path)
     rows = list(rows)
 
@@ -33,10 +34,9 @@ def write_csv(rows: Iterable[Sequence], path: str | Path,
             w.writerow(r)
 
 
-
 def frequencies_from_text(text: str) -> dict[str, int]:
     tokens = tokenize(normalize(text))
-    return Counter(tokens)  
+    return Counter(tokens)
 
 
 def sorted_word_counts(freq: dict[str, int]) -> list[tuple[str, int]]:
@@ -44,14 +44,13 @@ def sorted_word_counts(freq: dict[str, int]) -> list[tuple[str, int]]:
 
 
 txt = read_text("data/input.txt")  # должен вернуть строку
-data=[i for i in top_n(count_freq(tokenize(normalize(txt))),n=5)]
+data = [i for i in top_n(count_freq(tokenize(normalize(txt))), n=5)]
 write_csv(
-    header=("word","count"),
+    header=("word", "count"),
     rows=data,
-    path = "data/check.csv" ,
+    path="data/check.csv",
 )
 
 
-
 txt = read_text("data/input.txt")  # должен вернуть строку
-write_csv([("word","count"),("test",3)], "data/check.csv")  # создаст CSV
+write_csv([("word", "count"), ("test", 3)], "data/check.csv")  # создаст CSV

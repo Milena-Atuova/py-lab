@@ -1,6 +1,6 @@
 import sys, os
 
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
+sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 
 from lib.text import normalize, tokenize, count_freq, top_n
 
@@ -22,7 +22,7 @@ for word, count in top_words:
     print(f"{word}:{count}")
 
 # Таблица
-USE_TABLE = True 
+USE_TABLE = True
 
 if USE_TABLE and top_words:
     # Вычисляем ширину первого столбца по длине самого длинного слова
@@ -40,5 +40,3 @@ if USE_TABLE and top_words:
 else:
     for word, count in top_words:
         print(f"{word}:{count}")
-
-
