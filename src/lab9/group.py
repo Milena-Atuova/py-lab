@@ -1,6 +1,7 @@
 import csv
-from pathlib import Path
 from src.lab8.models import Student
+from pathlib import Path
+
 
 class Group:
     def __init__(self, storage_path: str):
